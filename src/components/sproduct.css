@@ -1,0 +1,57 @@
+.image{
+    height: 400px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.small-img-group{
+    display:flex;
+}
+
+.small-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.small-img-col{
+    cursor: pointer;
+}
+
+.title{
+    color:rgb(217,166,109)
+}
+.discount{
+    font-size: small;
+
+}
+
+.quantity{
+    background-color: rgb(246,248,252);
+    padding:10px 20px 10px 20px;
+    border-radius: 10px;
+}
+.cart{
+    background-color: rgb(254,124,27);
+    border: none;
+    padding: 10px;
+    color: white;
+    margin-left: 10px;
+    width: 200px;
+    border-radius: 10px;
+
+}
+
+.right{
+    margin-top: 40px;
+}
+.name{
+    margin-bottom: 0;
+}
+.para{
+    margin-top: 20px;
+}
+
+.left{
+    margin-right: 0;
+}

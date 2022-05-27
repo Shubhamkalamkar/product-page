@@ -62,9 +62,32 @@
     border-radius: 40%;
 }
 
+.discount{
+    color: rgb(230,177,122);
+    background-color: rgb(255,238,221);
+}
+
+.price{
+    color: rgb(203,202,205);
+}
+
+
+@media only screen and (max-width: 990px){
+    .desktop-img{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 990px){
+    .mobile-img{
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 385px){
       .cart{
           margin-top: 20px;
           margin-left: 0;
+          width: 100%;
       }
 }

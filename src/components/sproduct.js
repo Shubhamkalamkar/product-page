@@ -9,7 +9,7 @@ function Sproduct() {
   const [count, setCount] = useState(1)
 
   return (
-    <section className="container sproduct my-5 pt-5">
+    <section className="container sproduct my-5">
       <div className="row mt-5">
         <div className="col-lg-5 col-md-12 col-12 left">
           <img className="img-fluid image mb-1 " src={path} alt="product" />

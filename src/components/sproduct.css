@@ -49,9 +49,22 @@
     margin-bottom: 0;
 }
 .para{
+    display: flex;
     margin-top: 20px;
 }
 
 .left{
     margin-right: 0;
+}
+
+.photo{
+    width: 27px;
+    border-radius: 40%;
+}
+
+@media only screen and (max-width: 385px){
+      .cart{
+          margin-top: 20px;
+          margin-left: 0;
+      }
 }

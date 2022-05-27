@@ -4,7 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 function Sproduct() {
   const [path, setPath] = useState(
-    "https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2F1.jpg?alt=media&token=16044f62-7c28-45ec-90d1-2cb214b1550b"
+    "https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2Fproduct4.jpeg?alt=media&token=80188c5f-4a45-4219-a20a-bbbdc7129cae"
   );
 
   const [count, setCount] = useState(1);
@@ -23,29 +23,29 @@ function Sproduct() {
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid image"
-                src="https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2F1.jpg?alt=media&token=16044f62-7c28-45ec-90d1-2cb214b1550b"
+                src="https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2Fproduct4.jpeg?alt=media&token=80188c5f-4a45-4219-a20a-bbbdc7129cae"
                 alt="First slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid image"
-                src="https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2F2.jpg?alt=media&token=0d92f12c-0267-4e50-9be6-7932878f2788"
+                src="https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2Fproduct3.jpeg?alt=media&token=1dc948c4-77bd-411c-8740-0a0d214d5186"
                 alt="Second slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid image"
-                src="https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2F3.jpg?alt=media&token=594fffa5-7f6e-4845-8e58-e2067f3241b7"
+                src="https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2Fproduct2.jpeg?alt=media&token=b0278f6c-9981-4bf7-b90e-7d20fc912b86"
                 alt="Third slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid image"
-                src="https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2F4.jpg?alt=media&token=922ae631-dee2-45fb-ad4c-e06f427fe9a9"
-                alt="Third slide"
+                src="https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2Fproduct%201.jpeg?alt=media&token=4e1cdcb4-fd39-4c4e-ba0e-c2ea38e28b2c"
+                alt="forth slide"
               />
             </Carousel.Item>
           </Carousel>
@@ -58,11 +58,11 @@ function Sproduct() {
               <img
                 onClick={() =>
                   setPath(
-                    "https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2F1.jpg?alt=media&token=16044f62-7c28-45ec-90d1-2cb214b1550b"
+                    "https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2Fproduct4.jpeg?alt=media&token=80188c5f-4a45-4219-a20a-bbbdc7129cae"
                   )
                 }
                 src={
-                  "https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2F1.jpg?alt=media&token=16044f62-7c28-45ec-90d1-2cb214b1550b"
+                  "https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2Fproduct4.jpeg?alt=media&token=80188c5f-4a45-4219-a20a-bbbdc7129cae"
                 }
                 className="small-img img-fluid"
                 alt="small-img"
@@ -72,11 +72,11 @@ function Sproduct() {
               <img
                 onClick={() =>
                   setPath(
-                    "https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2F2.jpg?alt=media&token=0d92f12c-0267-4e50-9be6-7932878f2788"
+                    "https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2Fproduct3.jpeg?alt=media&token=1dc948c4-77bd-411c-8740-0a0d214d5186"
                   )
                 }
                 src={
-                  "https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2F2.jpg?alt=media&token=0d92f12c-0267-4e50-9be6-7932878f2788"
+                  "https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2Fproduct3.jpeg?alt=media&token=1dc948c4-77bd-411c-8740-0a0d214d5186"
                 }
                 className="small-img img-fluid"
                 alt="small-img"
@@ -86,11 +86,11 @@ function Sproduct() {
               <img
                 onClick={() =>
                   setPath(
-                    "https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2F3.jpg?alt=media&token=594fffa5-7f6e-4845-8e58-e2067f3241b7"
+                    "https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2Fproduct2.jpeg?alt=media&token=b0278f6c-9981-4bf7-b90e-7d20fc912b86"
                   )
                 }
                 src={
-                  "https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2F3.jpg?alt=media&token=594fffa5-7f6e-4845-8e58-e2067f3241b7"
+                  "https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2Fproduct2.jpeg?alt=media&token=b0278f6c-9981-4bf7-b90e-7d20fc912b86"
                 }
                 className="small-img img-fluid"
                 alt="small-img"
@@ -100,11 +100,11 @@ function Sproduct() {
               <img
                 onClick={() =>
                   setPath(
-                    "https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2F4.jpg?alt=media&token=922ae631-dee2-45fb-ad4c-e06f427fe9a9"
+                    "https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2Fproduct%201.jpeg?alt=media&token=4e1cdcb4-fd39-4c4e-ba0e-c2ea38e28b2c"
                   )
                 }
                 src={
-                  "https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2F4.jpg?alt=media&token=922ae631-dee2-45fb-ad4c-e06f427fe9a9"
+                  "https://firebasestorage.googleapis.com/v0/b/sppu-guru.appspot.com/o/produt%20photo%2Fproduct%201.jpeg?alt=media&token=4e1cdcb4-fd39-4c4e-ba0e-c2ea38e28b2c"
                 }
                 className="small-img img-fluid"
                 alt="small-img"
@@ -133,7 +133,9 @@ function Sproduct() {
           <p>
           <span className="price">$250.00</span>
           </p>
-          <div style={{ display: "inline" }}>
+
+
+          {/* <div className="count-group" style={{ display: "inline" }}>
             <button
               className="quantity"
               style={{ border: "none" }}
@@ -151,7 +153,17 @@ function Sproduct() {
             >
               +
             </button>
-          </div>
+          </div> */}
+
+
+            <div className="count-group" >
+              <span className="quantity" onClick={() => setCount(count > 0 ? count - 1 : count)}>-</span>
+              <h5 className="quantity" style={{ display: "inline" }}>
+              {count}
+            </h5>
+            <span className="quantity" onClick={() => setCount(count + 1)}>+</span>
+            </div>
+
           <button className="cart">
             {" "}
             <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add To Cart
